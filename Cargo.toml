@@ -1,0 +1,11 @@
+[package]
+name = "lau-distributed-systems"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-distributed-systems"
+description = "Distributed systems theory — consensus, consistency, and fault tolerance algorithms in Rust"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"

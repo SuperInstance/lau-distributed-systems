@@ -1,0 +1,9 @@
+pub mod consensus;
+pub mod consistency;
+pub mod hash_ring;
+pub mod vector_clock;
+pub mod quorum;
+pub mod gossip;
+pub mod leader_election;
+pub mod cap;
+pub mod coordination;
